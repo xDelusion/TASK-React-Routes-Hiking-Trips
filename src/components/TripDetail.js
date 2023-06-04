@@ -1,5 +1,5 @@
-import React from 'react';
-import tripsData from '../tripsData';
+import React from "react";
+import tripsData from "../tripsData";
 
 function TripDetail() {
   const trip = tripsData[0];
