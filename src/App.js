@@ -10,9 +10,9 @@ function App() {
     <div id="page-top">
       <Nav />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/trips-list" element={<TripsList />} />
-        <Route path="/trip-detail" element={<TripDetail />} />
+        <Route path="/trip-detail/:tripId" element={<TripDetail />} />
       </Routes>
     </div>
   );
